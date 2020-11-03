@@ -4,6 +4,16 @@ import java.util.Scanner;
 
 public class ejercicio2 {
 	public static void main(String[] args) {
+		System.out.println(" 88888888888888888888888888888888888888888 ");
+		System.out.println(" -  ___________________________________  +" );
+		System.out.println(" + | AUTOR:ANDRES FELIPE BOTINA        | -" );
+		System.out.println(" - |         FECHA: 03-noviembre-2020    | +" );
+		System.out.println(" + |       PROGRAMA DE ING. INDUSTRIAL | -" );
+		System.out.println(" - |              ID:  760728          | +" );
+		System.out.println(" + |___________________________________| -" );
+		System.out.println(" 88888888888888888888888888888888888888888" );
+		
+		
 		int numero1, numero2, resultado1, resultado2;
 
 		Scanner leer = new Scanner(System.in);
