@@ -1,0 +1,30 @@
+package tallerjava;
+
+import java.util.Scanner;
+
+public class ejercicio3 {
+	public static void main(String[] args) {
+		int numero1, numero2, suma, resta, producto;
+		int promedio;
+
+		// double = reconce decimales pero deben ser todas
+
+		Scanner leer = new Scanner(System.in);
+
+		System.out.println("lea el primer numero ");
+		numero1 = leer.nextInt();
+		System.out.println("lea el segundo numero ");
+		numero2 = leer.nextInt();
+
+		suma = numero1 + numero2;
+		resta = numero1 - numero2;
+		producto = numero1 * numero2;
+		promedio = suma / 2;
+
+		System.out.println("el resultado de la suma es:"+suma);
+		System.out.println("el resulatdo de la resta es:"+resta);
+		System.out.println("el resultado del producto es:"+producto);
+		System.out.println("el resultado promedio es :"+promedio);
+	}
+
+}
